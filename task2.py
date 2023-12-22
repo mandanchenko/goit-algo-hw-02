@@ -12,8 +12,9 @@ def is_pal(data):
     return True
 
 
-
-print(is_pal('12nr1 2'))
-print(is_pal('12n1n 21'))
-print(is_pal('Minim'))
-print(is_pal('12nr12'))
+if __name__ == "__main__":
+    print(is_pal('12nr1 2'))
+    print(is_pal('12nn 21'))
+    print(is_pal('Minim'))
+    print(is_pal('12nr12'))
+    print(is_pal('А роза упала на лапу Азора'))
